@@ -1,16 +1,15 @@
 {
-  "name": "LectureNotes-Server",
-  "description": "An awesome real time application",
+  "name": "node-example",
   "version": "0.0.1",
-  "author": "Me <me@mydomain.com>",
-  "private": true,
-  "engines": { "node": ">= 0.6.0" },
   "dependencies": {
-    "socketstream": "0.3.x",
-    "ss-stylus": "0.1.x",
-    "ss-hogan": "0.1.x"
+    "express": "3.x",
+    "ejs": "0.8.3",
+    "ejs-locals" : "1.0.2",
+    "socket.io" : "0.9.x",
+    "socket.io-client" : "0.9.x"
   },
-  "scripts":{
-    "start":"node app.js"
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
   }
 }
